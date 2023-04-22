@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+head {
+    display: none;
+}
+header {
+    display: flex;
+}
+header h1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 350px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    text-shadow: 2px 2px #6f7364;
+}
+header, footer {
+    background-color: #bf92e4;
+    border-radius: 5px 5px 5px 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: 20px;
+}
+img {
+    border-radius: 15px;
+    margin: 25px 25px 25px 25px;
+}
+h2 {
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    text-shadow: 2px 2px #6f7364;
+    font-size: 40px;
+}
+nav {
+    font-size: 20px;
+    font-family: "Red Hat Display", Verdana, sans-serif;;
+}
