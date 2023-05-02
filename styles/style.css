@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
-
+body {
+    background-color: #f0ebf8;
+}
 head {
     display: none;
 }
 header {
     display: flex;
-    background-color: #9370DB;
+    background-color: #764ebe;
     border-radius: 5px 5px 5px 5px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -29,14 +31,14 @@ footer {
     padding: 1rem;
     color: aliceblue;
     font-size: 20px;
-    background-color: #9370DB;
+    background-color: #764ebe;
     border-radius: 5px 5px 5px 5px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 img {
-    width: 150px;
-    height: 200px;
+    width: 176px;
+    height: 220px;
     border-radius: 15px;
     margin: 25px 25px 25px 25px;
 }
