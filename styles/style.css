@@ -6,7 +6,7 @@ head {
 }
 header {
     display: flex;
-    background-color: #bf92e4;
+    background-color: #9370DB;
     border-radius: 5px 5px 5px 5px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -29,12 +29,14 @@ footer {
     padding: 1rem;
     color: aliceblue;
     font-size: 20px;
-    background-color: #bf92e4;
+    background-color: #9370DB;
     border-radius: 5px 5px 5px 5px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 img {
+    width: 150px;
+    height: 200px;
     border-radius: 15px;
     margin: 25px 25px 25px 25px;
 }
