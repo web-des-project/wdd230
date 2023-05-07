@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+nav {
+    margin: 30px;
+    background-color: black;
+    padding: 25px 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    border-radius: 25px;
+}
+ul {
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-between;
+    color: #d9e17f;
+    padding: 0 20px;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    
+}
+ul a {
+    color: #d9e17f;
+    font-family: "Red Hat Display", Verdana, sans-serif;;
+}
+nav a:hover {
+    background-color: #7b7d76;
+    color: white;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 1rem;
+}
+header, footer, nav, main {
+    width: auto;
+    margin: 1.5rem auto;
+
+}
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    background-color: black;
+    padding: 25px 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: #d9e17f;
+    font-size: 20px;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    border-radius: 25px;
+}
+.purpose h1, .website-name h1 {
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    color: #808101;
+}
+.purpose p, .website-name p {
+    font-family: Merriweather, Georgia , serif;
+}   
+.colors {
+    width: 100%;
+    color: black;
+}
+.primary {
+    background-color: #000000;
+}
+.secondary {
+    background-color: #808101;
+}
+.accent1 {
+    background-color: #d9e17f;
+}
+.accent2 {
+    background-color: #b9a38c;
+}
+main {
+    text-align: center;
+}
+.target-audience h1, .persona1 h1, .persona2 h1 {
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    color: #808101;
+}
+.target-audience p, .persona1 p, .persona2 p {
+    font-family: Merriweather, Georgia , serif;
+    color: #000000;
+}
+.persona1 p, .persona2 p {
+    background-color: #b9a38c;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 25px;
+}
+.target-audience p {
+    padding: 1rem;
+}
+.scenario1 h1, .scenario2 h1, .scenario3 h1, .scenario4 h1, .scenario5 h1 {
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    color: #808101;
+}
+.scenario1 p, .scenario2 p, .scenario3 p, .scenario4 p, .scenario5 p {
+    font-family: Merriweather, Georgia , serif;
+    color: #000000;
+}
+main h3, h2 {
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    color: #808101;
+    font-size: 40px;
+}
+main p, h4 {
+    font-family: Merriweather, Georgia , serif;
+    color: #000000;
+}
+
