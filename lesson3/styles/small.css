@@ -6,32 +6,32 @@
 
 }
 nav {
-    margin: 30px;
-    background-color: black;
-    padding: 25px 50px;
+    background-color: #000000;
     text-align: center;
-    color: aliceblue;
-    font-size: 20px;
-    font-family: "Red Hat Display", Verdana, sans-serif;
+    box-shadow: 0 2px 15px gray;
     border-radius: 25px;
 }
-ul {
-    display: flex;
-    background-color: #000000;
-    align-items: center;
-    justify-content: space-between;
-    color: #d9e17f;
-    padding: 0 20px;
-    font-family: "Red Hat Display", Verdana, sans-serif;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     
 }
-ul a {
+nav li a {
+    display: block;
     color: #d9e17f;
-    font-family: "Red Hat Display", Verdana, sans-serif;;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Red Hat Display", Verdana, sans-serif;
 }
 nav a:hover {
     background-color: #7b7d76;
     color: white;
+    border-radius: 25px;
 }
 main section {
     text-align: center;
@@ -73,6 +73,9 @@ footer {
 .colors {
     width: 100%;
     color: black;
+    min-width: 350px;
+    text-align: center;
+    margin: 25px auto;
 }
 .primary {
     background-color: #000000;
@@ -123,4 +126,3 @@ main p, h4 {
     font-family: Merriweather, Georgia , serif;
     color: #000000;
 }
-
