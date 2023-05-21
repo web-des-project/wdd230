@@ -11,4 +11,4 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 
 datefield.textContent = fulldate;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+

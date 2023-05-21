@@ -1,10 +1,14 @@
 document.querySelector("#myYear").textContent = new Date().getFullYear();
 document.querySelector("#lastUpdated").textContent = document.lastModified;
 
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-}   
+/**Banner */
+const bannerElement = document.querySelector("#banner");
+const today = new Date().getDay();
 
-const x = document.getElementById("hamburgerBtn")
-x.onclick = toggleMenu;
+if (today === 1 || today === 2) {
+	bannerElement.style.display = "block";
+}
+else {
+	bannerElement.style.display = "none";
+}
+
