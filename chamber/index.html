@@ -18,7 +18,7 @@
         </div>
         <div class="logo">
             <picture>
-                <img src="images/logo2.png" alt="logo">
+                <img src="images/logo2.webp" alt="logo">
             </picture>
             <section class="headings">
                 <h1>Victoria's Commerce</h1>
@@ -47,7 +47,11 @@
     <main>
         <div class="grid-container">
             <section class="hero-div">
-                <img src="images/victoria2.jpg" alt="hero-img">
+                <picture>
+                    <source media="(min-width: 980px)" srcset="images/wdd230-large.jpg 980w">
+                    <source media="(min-width: 765px)" srcset="images/wdd230-medium.jpg 765w">
+                    <img src="images/wdd230-small.jpg" alt="hero-img" width="465" height="310">
+                </picture>
                 <h2 class="hero-title1">Welcome to</h2>
                 <h3 class="hero-title2">Victoria's commerce</h3>
                 <a href="#" class="joinus-btn">Join us</a>
@@ -60,10 +64,11 @@
             <section class="weather-div">
                 <h1 class="weather">weather</h1>
                 <img class="sun-icon" src="images/sun.png" alt="sun icon">
-                <h2 class="grades">35°C</h2>
-                <p class="sunny">Sunny</p>
+                <h2 class="grades">33°C</h2>
+                <p class="sunny">Partly Cloudy</p>
                 <hr>
-                <p class="speed">wind Speed:    1.0km/h</p>
+                <p class="speed">Wind Speed:    2.5km/h</p>
+                <p class="speed">Wind Chill:<span id="windChill"></span></p>
             </section>
             <section class="newrelease-div">
                 <h1>New release</h1>
@@ -103,7 +108,7 @@
     <footer>
         <div class="footer-container">
             <div class="adress">
-                <img src="images/logo2.png" class="logo2" alt="footer logo">
+                <img src="images/logo2.webp" class="logo2" alt="footer logo">
                 <div class="info">
                     <h1>Victoria's Commerce</h1>
                     <p>4720760 Urrutia</p>
@@ -121,6 +126,7 @@
             </p>
         </div>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/date.js"></script>
