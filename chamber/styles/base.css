@@ -156,13 +156,13 @@ footer {
     text-align: center;
     font-size: 25px;
     padding: 10px;
-	font-family: Merriweather, Georgia , serif;;
+	font-family: Merriweather, Georgia , serif;
 }
 .event-div p{
     text-align: center;
     font-size: 18px;
     padding: 40px;
-	font-family: Merriweather, Georgia , serif;;
+	font-family: Merriweather, Georgia , serif;
 }
 .weather-div {
 	grid-column: 1/5;
