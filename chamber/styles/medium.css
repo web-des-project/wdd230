@@ -122,5 +122,6 @@ nav ul li a {
     margin-top: 8px;
 }
 }
-
-
+.landscape:hover {
+	box-shadow: 0 0 50px #333;
+}
