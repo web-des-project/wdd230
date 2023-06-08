@@ -18,6 +18,9 @@ body {
 
 table {
 	margin: 10px auto;
+    height: 300px;
+    font-size: 25px;
+    margin-top: 200px;
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
