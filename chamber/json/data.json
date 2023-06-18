@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "Kekse",
+        "membership": "Silver",
+        "email": "keksesievers@gmail.com",
+        "phone": "+56 930517724",
+        "website": "http://keksesievers.com",
+        "image": "images/image1.png"
+      },
+      {
+        "name": "Correos Victoria",
+        "membership": "Bronze",
+        "email": "info@correos.com",
+        "phone": "+56 950336718",
+        "website": "http://correosvictoria.cl",
+        "image": "images/image2.png"
+      },
+      {
+        "name": "Fronteras Araucanía",
+        "membership": "Bronze",
+        "email": "fronteras@info.org",
+        "phone": "+56 930517724",
+        "website": "http://representantesFA.cl",
+        "image": "images/image3.png"
+      },
+      {
+        "name": "Estilismo Design",
+        "membership": "Silver",
+        "email": "E-designs@gmail.com",
+        "phone": "+56 904641799",
+        "website": "http://estilismo-design.info",
+        "image": "images/image4.png"
+      },
+      {
+        "name": "Rama O'hara",
+        "membership": "Gold",
+        "email": "Oharaagencia@info.com",
+        "phone": "+56 928209956",
+        "website": "http://rama-ohara.org",
+        "image": "images/image5.png"
+      },
+      {
+        "name": "Comercial Brekker",
+        "membership": "Bronze",
+        "email": "Brekker@info.com",
+        "phone": "+56 917596200",
+        "website": "http://comercial-brekker.com",
+        "image": "images/image6.png"
+      },
+      {
+        "name": "Smart sell",
+        "membership": "Silver",
+        "email": "Sscontact@info.cl",
+        "phone": "+56 974812051",
+        "website": "http://smart-sell.com",
+        "image": "images/image7.png"
+      },
+      {
+        "name": "Barthold & Company",
+        "membership": "Gold",
+        "email": "B&Co@info.com",
+        "phone": "+56 906398126",
+        "website": "https://bartholdandco.com",
+        "image": "images/image8.png"
+      },
+      {
+        "name": "Travelers",
+        "membership": "Gold",
+        "email": "travelers@contact.com",
+        "phone": "+56 930517724",
+        "website": "http://travelers.com",
+        "image": "images/image9.png"
+      }
+    ]
+}

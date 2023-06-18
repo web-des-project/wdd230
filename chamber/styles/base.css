@@ -151,7 +151,7 @@ footer {
     text-align: center;
     font-size: 40px;
     padding: 10px;
-    font-family: "Red Hat Display", Verdana, sans-serif;;
+    font-family: "Red Hat Display", Verdana, sans-serif;
 }
 .event-div h2{
     text-align: center;
@@ -519,3 +519,99 @@ select {
 	margin: 50px;
 	font-family: Merriweather, Georgia , serif;
 }
+
+/* Directory */ 
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: black;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 10px;
+	align-items: center;
+	padding: 2rem;
+}
+
+.grid section {
+	text-align: center;
+	height: 350px;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h2 {
+	font-family: "Red Hat Display", Verdana, sans-serif;
+	margin: 10px;
+	font-size: 40px;
+}
+
+.grid p {
+	font-family: Merriweather, Georgia , serif;
+	margin: 5px;
+}
+
+
+.list {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0.1rem;
+}
+
+.list img {
+	display: none; 
+}
+
+.list section h2 {
+	font-size: 1rem;
+	font-family: "Red Hat Display", Verdana, sans-serif;
+}
+.list p {
+	font-family: Merriweather, Georgia , serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #d9e17f;
+}
+
+section h1 {
+	text-align: center;
+	font-family: "Red Hat Display", Verdana, sans-serif;
+	margin-top: 50px;
+}
+section h2 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
