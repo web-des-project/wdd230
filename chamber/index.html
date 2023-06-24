@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    
 
     <title>Victoria's Commerce | Home</title>
 </head>
@@ -63,13 +65,15 @@
                 <p>the importance of having security against cyber attacks and how to deal with them.<a href="#"> more info...</a></p>
             </section>
             <section class="weather-div">
-                <h1 class="weather">weather</h1>
-                <img class="sun-icon" src="images/sun.png" alt="sun icon">
-                <h2 class="grades">33°C</h2>
-                <p class="sunny">Partly Cloudy</p>
+                <h1 class="weather">Weather</h1>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                </figure>
+                <h2 class="grades"><span id="current-temp"></span>&deg;C</h2>
+                <p class="sunny"><figcaption></figcaption></p>
                 <hr>
-                <p class="speed">Wind Speed:    2.5km/h</p>
-                <p class="speed">Wind Chill:<span id="windChill"></span></p>
+                <p class="speed">Wind speed: <span id="speed"></span></p>
+                <p class="speed">Wind chill: <span id="wind-chill"></span></p>
             </section>
             <section class="newrelease-div">
                 <h1>New release</h1>
