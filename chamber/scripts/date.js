@@ -1,6 +1,8 @@
 document.querySelector("#myYear").textContent = new Date().getFullYear();
 document.querySelector("#lastUpdated").textContent = document.lastModified;
 
+document.querySelector("#lastModified").textContent = document.lastModified;
+
 /**Banner */
 const bannerElement = document.querySelector("#banner");
 const today = new Date().getDay();

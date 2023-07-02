@@ -1,8 +1,36 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 47rem) {
+    footer {
+        display: flex;
+        display: grid;
+        justify-content: center;
+    }
 
-nav ul li a {
-    font-size: 18px;
-}
+    .footer-container{
+        display: flex;
+        
+        
+    }
+
+    .adress{
+        text-align: left;
+
+    }
+
+  
+    .contacts{
+        text-align: end;
+        margin-left: auto;
+        
+    }
+
+    .info{
+        display: flex;
+        margin-left: 1rem;
+ 
+  
+    }
+/** Home Page Main Content**/
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -31,7 +59,7 @@ nav ul li a {
 .join-div p {
     text-align: center;
     padding: 10px;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 100px;
     font-family: Merriweather, Georgia , serif;
 }
@@ -40,8 +68,8 @@ nav ul li a {
 	background-color: #d9e17f;
 	font-size: 25px;
     font-family: "Red Hat Display", Verdana, sans-serif;
-    bottom: 58rem;
-    left: 24rem;
+    bottom: 59rem;
+    left: 25rem;
 	padding: 15px;
 	text-decoration: none;
 	border-radius: 15px;
@@ -124,4 +152,12 @@ nav ul li a {
 }
 .landscape:hover {
 	box-shadow: 0 0 50px #333;
+}
+.list section h2 {
+	font-size: 25px;
+	font-family: "Red Hat Display", Verdana, sans-serif;
+}
+.list p {
+	font-size: 16px;
+	font-family: Merriweather, Georgia , serif;
 }

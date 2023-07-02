@@ -1,5 +1,8 @@
 @media only screen and (min-width: 64rem) {
 
+#hamburgerBtn {
+    display: none;
+}
 nav ul {
     display: flex;
     margin-left: 2vw;
@@ -21,6 +24,7 @@ nav ul li a {
 }
 .grid-container {
     display: grid;
+    margin: 80px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr) ;
 }
@@ -53,8 +57,8 @@ nav ul li a {
 .joinus2 {
     position: absolute;
 	font-size: 40px;
-    bottom: 45rem;
-    left: 8rem;
+    bottom: 34rem;
+    left: 10rem;
 	padding: 15px;
 	text-decoration: none;
 	border-radius: 15px;
@@ -72,20 +76,20 @@ nav ul li a {
 }
 .hero-div h2 {
 	position: absolute;
-	top: 18rem;
+	top: 21rem;
 	left: 29rem;
 	font-size: 45px;
 }
 .hero-div h3 {
 	position: absolute;
-	top: 23rem;
+	top: 26rem;
 	left: 29rem;
 	font-size: 45px;
 }
 .hero-div a {
     position: absolute;
 	font-size: 50px;
-	top: 52rem;
+	top: 53rem;
 	left: 52rem;
 	padding: 15px;
 }
@@ -104,24 +108,37 @@ nav ul li a {
 .spotlight1{
     margin: 0.5rem;
 	border: 1px solid #bbb;
+    padding: 15px;
 	background-color: #eee;
 
-  }
+}
+.spotlight1 p {
+    font-size: 17px;
+}
 .spotlight2 {
     margin: 0.5rem;
 	border: 1px solid #bbb;
+    padding: 15px;
 	background-color: #eee;
+}
+.spotlight2 p {
+    font-size: 17px;
 }
 .spotlight3 {
     display: grid;
     margin: 0.5rem;
-    padding: 15px;
+    padding: 20px;
 	border: 1px solid #bbb;
 	background-color: #eee;
     text-align: center;
 }
+.spotlight3 p {
+    font-size: 17px;
+}
 .spotlight3 img {
-    margin-left: 70px;
+    margin-left: 30px;
+	width: 150px;
+	height: 150px;
 }
 
 

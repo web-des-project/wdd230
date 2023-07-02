@@ -7,7 +7,7 @@ async function getCompanies() {
     const response = await fetch(jsonData);
     const data = await response.json();
     //console.table(data.companies);
-    displayCompanies(data.companies)
+    displayCompanies(data.companies);
 }
 getCompanies();
 
