@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/gallery.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+              <nav class="navbar">
+                 <a href="#" class="nav-icon">Bountiful Foods</a>
+                 <ul class="nav-menu">
+                   <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="gallery.html" class="nav-link">Gallery</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="aboutus.html" class="nav-link">About Us</a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.instagram.com/" class="social-media">
+                      <img src="images/instagram.png" alt="instagram">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.facebook.com/" class="social-media">
+                      <img src="images/facebook.png" alt="facebook">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://twitter.com/" class="social-media">
+                       <img src="images/twitter.png" alt="twitter">
+                    </a>
+                   </li>
+                 </ul>
+                 <div class="hamburger">
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                 </div>
+              </nav>
+            </div>
+          </div>
+    </header>
+    <main>
+        <h2 class="title">Fruits Gallery</h2>
+
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/frambuesa.jpg" style="width:100%" alt="frambuesa">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/kiwi.jpg" style="width:100%" alt="kiwi">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/piña.jpg" style="width:100%" alt="piña">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/frutilla.jpg" style="width:100%" alt="frutilla">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/limon.jpg" style="width:100%" alt="limon">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/fruitshero.jpg" style="width:100%" alt="hero">
+          </div>
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="images/frambuesa.jpg" style="width:100%" onclick="currentSlide(1)" alt="Raspberry">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/kiwi.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kiwi">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/piña.jpg" style="width:100%" onclick="currentSlide(3)" alt="Pineapple">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/frutilla.jpg" style="width:100%" onclick="currentSlide(4)" alt="Strawberry">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/limon.jpg" style="width:100%" onclick="currentSlide(5)" alt="Lemons">
+            </div>    
+            <div class="column">
+              <img class="demo cursor" src="images/fruitshero.jpg" style="width:100%" onclick="currentSlide(6)" alt="Fruits">
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="adress">
+                <img src="images/BFlogo.png" class="logo2" alt="footer logo">
+            </div>
+            <div class="info">
+              <h1>Bountiful Foods</h1>
+              <p>Carlsbad, California</p>
+          </div>
+          <div class="contacts">
+              <h1>info@BFcontact.com</h1>
+              <p>+1(323) 345-902</p>
+              <p><a href="https://goo.gl/maps/EgWnajGvK9gF7LCs8" class="map">📌Location Map </a></p>
+          </div>
+        </div>
+        <hr>
+        <div>
+            <p class="updated">
+                &copy; <span id="myYear"></span> Victoria's Commerce | Josefa López | WDD 230 Project |Last Updated: <span id="lastUpdated"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/gallery.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/date.js"></script>
+</body>
+</html>

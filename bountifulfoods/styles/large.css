@@ -1,0 +1,179 @@
+@media only screen and (min-width: 49rem) {
+    .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 100px;
+    
+    }
+    
+    .box h2 {
+        margin: 10px;
+    }
+    
+    .box p {
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .stastics1 {
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 1/1;
+        border: 5px solid #f8bc98;
+        margin: 10px;
+        background-color: #f2e5d5;
+        box-shadow: 5px 10px rgb(195, 195, 195);
+    }
+    
+    .stastics1 img {
+        margin: 20px;
+    }
+    
+    .stastics2 {
+        text-align: center;
+        grid-column: 2/2;
+        grid-row: 1/2;
+        border: 5px solid #f8bc98;
+        margin: 10px;
+        background-color: #f2e5d5;
+        box-shadow: 5px 10px rgb(195, 195, 195);
+    }
+    
+    .stastics2 img {
+        margin: 20px;
+    }
+    
+    .stastics3 {
+        text-align: center;
+        grid-column: 3/4;
+        grid-row: 1/1;
+        border: 5px solid #f8bc98;
+        margin: 10px;
+        background-color: #f2e5d5;
+        box-shadow: 5px 10px rgb(195, 195, 195);
+    }
+    
+    .stastics3 img {
+        margin: 20px;
+    }
+
+    footer {
+        display: flex;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer-container{
+        display: flex;
+        
+        
+    }
+
+    .adress{
+        text-align: left;
+
+    }
+
+  
+    .contacts{
+        text-align: end;
+        margin-left: auto;
+        padding: 20px;
+        
+    }
+
+    .info{
+        display: flex;
+        margin-left: 1rem;
+        padding: 20px;
+  
+    }
+
+    .box1 img{
+        margin-top: 70px;
+        width: 500px;
+        height: 350px;
+    }
+    .form-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        font-size: 20px;
+        font-family: "Red Hat Display", Verdana, sans-serif;
+        border: 2px solid #ff8c8c;
+        background-color: #f2e5d5;
+        border-radius: 15px;
+        padding: 30px;
+    } 
+    
+    .input-field {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    input {
+        margin-top: 1rem;
+        width: 37rem;
+        height: 3rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    textarea {
+        margin-top: 1rem;
+        width: 37rem;
+        height: 3rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    select {
+        margin-top: 1rem;
+        width: 37rem;
+        height: 3rem;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    ::placeholder {
+        text-align: center;
+    } 
+
+    .discover h1 {
+        top: 100px;
+        font-size: 100px;
+    }
+    .container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box1 img {
+        float: left;
+        top: 50px;
+    }
+
+    .box1 p {
+        font-size: 40px;
+        margin-top: 230px;
+        color: white;
+    }
+    
+    .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    
+
+    .summary1 {
+        grid-column: 1/3;
+    }
+
+    .summary2 {
+        grid-column: 3/4 ;
+        grid-row: 1/2;
+    }
+
+}

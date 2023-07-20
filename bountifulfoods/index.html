@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+              <nav class="navbar">
+                 <a href="#" class="nav-icon">Bountiful Foods</a>
+                 <ul class="nav-menu">
+                   <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="gallery.html" class="nav-link">Gallery</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="aboutus.html" class="nav-link">About Us</a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.instagram.com/" class="social-media">
+                      <img src="images/instagram.png" alt="instagram">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.facebook.com/" class="social-media">
+                      <img src="images/facebook.png" alt="facebook">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://twitter.com/" class="social-media">
+                       <img src="images/twitter.png" alt="twitter">
+                    </a>
+                   </li>
+                 </ul>
+                 <div class="hamburger">
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                 </div>
+              </nav>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="hero-image">
+            <div class="container2">
+              <h1><span>Welcome to Bountiful Foods</span></h1>
+              <span class="sub">fresh fruits & organic foods</span>
+            </div>
+         </div>
+         <div class="box">
+            <section class="stastics1">
+                <h2>Make your own drink mix</h2>
+                <p>click down below, and start mixing your fruits</p>
+                <a href="fresh.html" class="btn">Mix it up</a>
+            </section>
+            <section class="stastics2">
+                <h2>The best fruits, food and natural drinks from California</h2>
+                <img src="images/BFlogo.png" alt="surface">
+            </section>
+            <section class="stastics3">
+                <h2 class="weather">Weather</h2>
+                <figure>
+                    <img src="images/sun.png" alt="weather" id="weather-icon">
+                </figure>
+                <h3 class="grades"><span id="current-temp"></span>&deg;C</h3>
+                <figure>
+                    <figcaption class="sunny"></figcaption>
+                </figure>
+                <hr>
+                <p class="speed">Wind speed: <span id="speed"></span></p>
+                <p class="speed">Wind chill: <span id="wind-chill"></span></p>
+            </section>
+         </div>
+         <div class="discover">
+            <h1>Discover: Carlsbad</h1>
+         </div>
+         <div class="background">
+            <div class="container3">
+                <div class="box1">
+                    <picture>
+                        <img 
+                        class="landscape"
+                        src="images/placeholder.png"
+                        data-src="images/carlsbad.jpg"
+                        alt="picture5"
+                        >
+                    </picture>
+                    <p>Carlsbad is a coastal city, located in the region of San Diego, California. </p>
+                </div>
+            </div>
+         </div>
+         <div class="summary-grid">
+            <div class="summary1">
+                <p>Nickname: Village by the sea</p>
+                <p>Population: 114, 746</p>
+                <p>Time-zone: UTC-8</p>
+                <p>Zip Code: 92018</p>
+            </div>
+            <div class="summary2">
+                <img src="images/seal.png" alt="seal">
+            </div>
+         </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="adress">
+                <img src="images/BFlogo.png" class="logo2" alt="footer logo">
+            </div>
+            <div class="info">
+                <h1>Bountiful Foods</h1>
+                <p>Carlsbad, California</p>
+            </div>
+            <div class="contacts">
+                <h1>info@BFcontact.com</h1>
+                <p>+1(323) 345-902</p>
+                <p><a href="https://goo.gl/maps/EgWnajGvK9gF7LCs8" class="map">📌Location Map </a></p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="updated">
+                &copy; <span id="myYear"></span> Victoria's Commerce | Josefa López | WDD 230 Project |Last Updated: <span id="lastUpdated"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* hamburger menu */
+body {
+    position: relative;
+}
+header {
+    top: 0;
+    width: 100%;
+    background-color: #f2e5d5;
+}
+
+li {
+    list-style: none;
+    font-family: Merriweather, Georgia , serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-icon {
+    font-size: 2rem;
+    color: #ff8c8c;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:1024px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position:absolute;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #f2e5d5;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .nav-menu a:hover {
+        background-color: #d3c8b9;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+
+.hero-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../images/fruitshero.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+}
+
+.container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container2 h1 {
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    padding: 4px;
+    text-shadow: 4px 4px black;
+}
+
+.sub {
+    margin: 10px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 2px 2px black;
+}
+
+/* Main */
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+
+}
+
+.box h2 {
+	margin: 10px;
+}
+
+.box p {
+	font-size: 30px;
+	margin: 10px;
+}
+
+.stastics1 {
+	text-align: center;
+	grid-column: 1/5;
+	grid-row: 1/2;
+    border: 5px solid #f8bc98;
+    padding: 50px;
+    background-color: #f2e5d5;
+    box-shadow: 5px 10px rgb(195, 195, 195);
+    border-radius: 20px;
+    font-family: Merriweather, Georgia , serif;
+
+}
+
+.stastics2 {
+	text-align: center;
+	grid-column: 1/5;
+	grid-row: 2/3;
+    padding: 30px;
+    border: 5px solid #f8bc98;
+    background-color: #f2e5d5;
+    box-shadow: 5px 10px rgb(195, 195, 195);
+    border-radius: 20px;
+    font-family: Merriweather, Georgia , serif;
+}
+
+.stastics2 img {
+	margin: 20px;
+}
+
+.stastics3 {
+	text-align: center;
+	grid-column: 1/5;
+	grid-row: 3/4;
+    border: 5px solid #f8bc98;
+    background-color: #f2e5d5;
+    box-shadow: 5px 10px rgb(195, 195, 195);
+    border-radius: 20px;
+    font-family: Merriweather, Georgia , serif;
+}
+
+.stastics3 img {
+	margin: 20px;
+}
+
+.background {
+    background-color: #ff8c8c;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.box1 img {
+    position: relative;
+    margin: 40px;
+    margin-top: 60px;
+    background-color: #f2e5d5;
+    width: 400px;
+    height: 250px;
+    border: 5px solid #f2e5d5;
+
+}
+
+.discover h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Red Hat Display";
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 4px 4px #ff8c8c;
+}
+
+.box1 p {
+    font-size: 37px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.btn {
+    font-size: 30px;
+    border: 3px solid #ff8c8c;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #f8bc98;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    font-family: Merriweather, Georgia , serif;
+}
+
+.summary1 {
+    border: 5px solid #f8bc98;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: #f2e5d5;
+}
+
+.summary1 p {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.summary2 {
+    border: 5px solid #f8bc98;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 10px grey;
+    background-color: #f2e5d5;
+}
+
+.summary2 {
+    padding: 95px;
+}
+/* Fresh */ 
+.form-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+	font-size: 20px;
+	font-family: "Red Hat Display", Verdana, sans-serif;
+	border: 2px solid #ff8c8c;
+	background-color: #f2e5d5;
+	border-radius: 50px;
+	padding: 40px;
+} 
+
+.input-field {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+input {
+	margin-top: 1rem;
+	width: 200px;
+	height: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+textarea {
+	margin-top: 1rem;
+	width: 200px;
+	height: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+select {
+	margin-top: 1rem;
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+}
+::placeholder {
+	text-align: center;
+} 
+
+button {
+    font-size: 25px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff8c8c;
+}
+
+/* About Us */
+
+.hero-image2 {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../images/fruitshero2.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+}
+
+.about-title {
+    margin-top: 80px;
+    text-align: center;
+    text-shadow: 4px 4px #cfcfcf;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 80px;
+    font-family: Merriweather, Georgia , serif;
+}
+
+.grid1 {
+    border: 5px solid #f8bc98;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f2e5d5;
+}
+
+.grid2 {
+    border: 5px solid #ff8c8c;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f2e5d5;
+}
+
+.grid3 {
+    border: 5px solid #f8bc98;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f2e5d5;
+}
+
+.grid4 {
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ff8c8c;
+    color: white;
+}
+
+.information {
+    text-align: center;
+    margin: 60px;
+    text-shadow: 4px 4px #cfcfcf;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+}
+
+.information-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    font-family: Merriweather, Georgia , serif;
+}
+
+.map-box {
+    border: 2px solid;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffa7a7;
+    color: white;
+}
+
+.map-box h1, p {
+    padding: 8px;
+}
+
+.contact-box {
+    border: 2px solid;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffa7a7;
+    color: white;
+}
+
+.contact-box h1, p {
+    padding: 8px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	display: flex;
+	display: grid;
+	background-color: #f2e5d5;
+	text-align: center;
+	margin: auto;
+    font-family: Merriweather, Georgia , serif;
+}
+.logo2 {
+	width: 80px;
+}
+.updated {
+	color: black;
+}
+.info {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding: 20px;
+}
+.info h1 {
+	font-size: 20px;
+	color: #ff8c8c;
+}
+.contacts {
+	color: black;
+    padding: 20px;
+}
+.contacts h1 {
+    font-size: 20px;
+}
+
+.btn1 {
+    margin-left: 10px;
+}
+
+

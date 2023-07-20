@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="subcontainer">
+              <nav class="navbar">
+                 <a href="#" class="nav-icon">Bountiful Foods</a>
+                 <ul class="nav-menu">
+                   <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="gallery.html" class="nav-link">Gallery</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="aboutus.html" class="nav-link">About Us</a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.instagram.com/" class="social-media">
+                      <img src="images/instagram.png" alt="instagram">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://www.facebook.com/" class="social-media">
+                      <img src="images/facebook.png" alt="facebook">
+                    </a>
+                   </li>
+                   <li class="nav-social">
+                    <a href="https://twitter.com/" class="social-media">
+                       <img src="images/twitter.png" alt="twitter">
+                    </a>
+                   </li>
+                 </ul>
+                 <div class="hamburger">
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                   <span class="bar"></span>
+                 </div>
+              </nav>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="form-div">
+            <form id="mixFruitDrink">
+                <div class="input-field">
+                   <label for="firstName">First Name <span class="asterisk">*</span></label>
+                   <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="input-field">
+                   <label for="email">Email <span class="asterisk">*</span></label>
+                   <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                </div>
+                <div class="input-field">
+                   <label for="phone">Cell Phone Number <span class="asterisk">*</span></label>
+                   <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-field">
+                    <label for="fruit1">Select a fruit: </label>
+                    <select name="fruit1" id="fruit1">
+                        <option>Select an option</option>
+                        <option value="">---select fruits---</option>
+                    </select><br><br>
+                </div>
+                <div class="input-field">
+                    <label for="fruit2">Select a fruit: </label>
+                    <select name="fruit2" id="fruit2">
+                        <option>Select an option</option>
+                        <option value="">---select fruits---/option>
+                    </select><br><br>
+                </div>
+                <div class="input-field">
+                    <label for="fruit3">Select a fruit: </label>
+                    <select name="fruit3" id="fruit3">
+                        <option>Select an option</option>
+                        <option value="">---select fruits---</option>
+                    </select><br><br>
+                </div>
+                <div class="input-field">
+                    <label for="instruction">Special Instruction: </label>
+                    <textarea id="instruction" name="instruction" placeholder="If any, type here special instructions for your drink"></textarea>
+                </div>
+
+                <input type="hidden" id="lastModified" name="datetime" value="datetime">
+                
+                <div class="btn1">
+                    <input type="submit" value="Join the chamber">
+                </div>
+
+            </form>
+            <div id="outputArea">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="adress">
+                <img src="images/BFlogo.png" class="logo2" alt="footer logo">
+            </div>
+            <div class="info">
+                <h1>Bountiful Foods</h1>
+                <p>Carlsbad, California</p>
+            </div>
+            <div class="contacts">
+                <h1>info@BFcontact.com</h1>
+                <p>+1(323) 345-902</p>
+                <p><a href="https://goo.gl/maps/EgWnajGvK9gF7LCs8" class="map">📌Location Map </a></p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="updated">
+                &copy; <span id="myYear"></span> Victoria's Commerce | Josefa López | WDD 230 Project |Last Updated: <span id="lastUpdated"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/fruits.js"></script>
+    <script src="scripts/date.js"></script>
+</body>
+</html>
